@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background:#34273f;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Oswald';
+    background: #1f1725;
+}
+
+.main{
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 0px 1rem;
+}
+#txt-input{
+    display: block;
+    background: #1f1725;
+    border: unset;
+    height: 150px;
+    width: 100%;
+    margin: 0px auto;
+    font-size: medium;
+    padding: 1rem;
+}
+
+
+#btn-translate{
+    display: block;
+    margin: 1rem 0;
+    background:#1f1725;
+    border: unset;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#output{
+    background:#1f1725;
+    height: 100px;
+    width: 100%;
+    margin: 1rem 0;
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+footer{
+    padding: 1rem;
+    background:#1f1725;
+    width: 100%;
+}
+footer .container{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+footer h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-height:750px) {
+    
+    footer{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+}
